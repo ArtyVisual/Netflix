@@ -1,0 +1,175 @@
+.container{
+    background-image: url("img/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position:center center;
+    background-size: max(1000px 100vh);
+    height: 80vh;
+    width: 100%;
+}
+.black {
+    background-color: black;
+    opacity: 0.64;
+    height: 80vh;
+    width: 99%;
+    position:absolute;
+}
+nav{
+    height:20px;
+    padding: 25px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    color:rgb(16, 2, 2);
+    position: relative;
+    width:100px;
+}
+#btn1{
+    border-radius: 3px;
+    position:relative;
+    font-size:15px;
+    padding:4px;
+    color: aliceblue;
+    background-color:rgba(230, 81, 81,0.1);
+    
+
+}
+#btn2{
+    border-radius: 3px;
+    position:relative;
+    font-size:15px;
+    padding:4px;
+    color: white;
+    background-color: rgb(210, 61, 61);
+    position: relative;
+    z-index: 10;
+}
+.section{
+    top: 15%;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 0px 5%;
+}
+.first{
+    color: rgb(255, 255, 255);
+    padding:20px 20px;
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.second{
+    color: rgb(255, 255, 255);
+    padding: auto;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.third{
+    margin-bottom: 5vh;
+    padding:20px 0px;
+    font-size: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.s-box{
+    width: 20vw;
+    height: 4vh;
+    color: azure;
+    border-radius: 2px;
+    border:1px solid white;
+    background-color:  rgba(234, 220, 220, 0.1);
+}
+.s-button{
+    font-weight:bold ;
+    font-size: 80%;
+    height: 4vh;
+    color: azure;
+    border-radius: 2px;
+    border:1px solid white;
+    background-color:  rgba(255, 6, 6, 1);
+}
+.s-box::placeholder{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-weight: 600;
+}
+.sep{
+    position: relative;
+    background-color: rgb(154, 151, 151);
+    height: 10px;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+}
+.tag1{
+    position: relative;
+    text-align: center;
+    font-size: 3vw;
+}
+.tag2{
+    position: relative;
+    text-align: center;
+    margin: 5px 50px;
+    font-size: 2vw;
+}
+.firstimg{
+    right: 0px;
+    position: relative;
+    z-index: 10;
+    margin-right: 40px;
+    height: 20vw;
+}
+.firstvid{
+    height: 25vh;
+    width: 23vw;
+    position:absolute;
+    right:7vh;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+}
+.secondimg{
+    left:8vh;
+    position: relative;
+    z-index: 10;
+    margin-right: 40px;
+    height: 20vw;
+}
+.thirdimg{
+    top: 41px;
+    right: 18px;
+    position: relative;
+    z-index: 10;
+    margin-right: 40px;
+    height: 35vh;
+    width: 30vw;
+}
+.thirdvid{
+    height: 21vh;
+    width: 16vw;
+    position:absolute;
+    right:19vh;
+    margin: 0;
+}
+
+.fourthimg{
+    left:8vh;
+    position: relative;
+    z-index: 10;
+    margin-right: 40px;
+    height: 20vw;
+}
+.title{
+    width: 20px;
+    height: 30px;
+}
